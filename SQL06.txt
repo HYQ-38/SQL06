@@ -1,0 +1,52 @@
+信息系统与数据库技术练习6答题卡
+
+班级：     信息管理1班
+姓名：     黄远茜
+学号：     20190307138
+
+注：请将答案放置在序号下方。*/
+
+（一）
+1.
+CREATE DATABASE OnlineShop
+
+
+
+2.
+
+
+
+3.Cid int PRIMARY KEY,
+Card char（18）NOT NULL,
+Cname nVarChar（3）NOT NULL,
+RegDate dateTime NOT NULL,
+Meanvalue numeric（12,2）
+
+
+
+
+4.
+CREATE TABLE Books
+(
+Bid CHAR(4) PRIMARY KEY,
+Bname VARCHAR(20) NOT NULL,
+Author CHAR(15),
+Publisher (30),
+PublisherDate(3)
+Price(8) money
+Discount deciaml(3,2)
+)
+
+
+5.
+
+
+
+6.
+EXEC sp_helpdb OnlineShop
+
+
+7.
+DROP DATABASE OnlineShop
+
+
